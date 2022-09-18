@@ -40,7 +40,7 @@ function onGalleryClick(event) {
 
   const instance = basicLightbox.create(
     `
-    <img src='${event.target.dataset.source}' width="800" height="600">
+    <img src='${event.target.dataset.source}' width="1200" height="900">
 `,
     {
       onShow: () => document.addEventListener("keydown", onEscBtnPress),
